@@ -1,0 +1,453 @@
+
+  
+
+.all-section-margin{
+    margin: 0px 160px;
+    background-color: #F5F5F5;
+    }
+
+.fira-sans-font {
+    font-family: "Fira Sans", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.section-title{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.section-paragraph{
+    font-size: 16px;
+    font-weight: normal;
+    color: rgba(14, 14, 14, 0.7);
+}
+
+
+/* Navbar Section Design */
+.navsection{
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navtitle{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin: 0px;
+}
+
+.navbtn{
+    border: 1px solid #006A50;
+    border-radius: 8px;
+    padding: 15px 30px;
+    background-color: transparent;
+    color: #006A50;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.navbtn:hover{
+    background-color: #d4f5e5;
+    cursor: pointer;
+}
+
+/* Banner Design */
+.banner{
+    height: 560px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px;
+    margin-top: 20px;
+}
+
+.banner-title{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.5);
+    margin: 0;
+}
+
+.banner-heading{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+
+.banner-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 17px 34px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.banner-btn:hover{
+    background-color: #0a4134;
+    cursor: pointer;
+}
+
+
+/* The Vision of Future Design */
+.vision-section{
+    margin-top: 80px;
+}
+
+.vision-section>p{
+    margin-top: 24px;
+    margin-bottom: 0;
+}
+
+.vision-card-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+.vision-card1{
+    /* border: 1px solid red; */
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card2{
+    /* border: 1px solid red; */
+    background-color: #C6E4D6;
+    border-radius: 16px;
+    padding: 32px;
+}
+.vision-card3{
+    /* border: 1px solid red; */
+    background-color: #F7EBCF;
+    border-radius: 16px;
+    padding: 32px;
+}
+
+.vision-card1:hover{
+    background-color: rgba(84, 143, 245, 0.500);
+}
+
+.vision-card2:hover{
+    background-color: #76cfa6;
+}
+
+.vision-card3:hover{
+    background-color: #fce0a0;
+}
+
+.vision-card-section h3{
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.vision-card-section p{
+    margin-top: 0px;
+    margin-bottom: 24px;
+    }
+
+.vision-card1-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #5490F5;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+}
+.vision-card2-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #09A15C;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+}
+.vision-card3-btn{
+    border-radius: 8px;
+    color: #FFFFFF;
+    background-color: #FFC239;
+    font-family: "Fira Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 11px 20px;
+    border: none;
+}
+
+.vision-card1-btn:hover{
+    background-color: #2974f5;
+    cursor: pointer;
+}
+.vision-card2-btn:hover{
+    background-color: #066b3e;
+    cursor: pointer;
+}
+.vision-card3-btn:hover{
+    background-color: #aa7701;
+    cursor: pointer;
+}
+
+.vision-card-title{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+
+/* Recent News Design */
+.recent-news-section{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.recent-news-paragraph{
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+
+.recent-news-card{
+    /* height: 402px; */
+    background-color: white;
+    border-radius: 24px;
+    padding: 48px;
+    margin-bottom: 24px;
+
+}
+
+.recent-news-card:hover{
+    background-color: #d4f5e5;
+}
+
+.recent-card-img{
+    border-radius: 24px;
+}
+
+.recent-news-card-content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.recent-card-title{
+    font-size: 32px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-bottom: 12px;
+}
+
+.recent-card-time{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+
+.recent-news-card-details{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+}
+
+.recent-news-btn{
+    border: none;
+    border-radius: 8px;
+    padding: 13px 26px;
+    background-color: #006A50;
+    color: #FFFFFF;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.recent-news-btn:hover{
+    background-color: #0a4134;
+    cursor: pointer;
+}
+
+
+.recent-news-card-details p{
+    margin: 0px;
+}
+
+.recent-news-card-details button{
+    margin-top: 32px;
+}
+
+
+/* Donate Now Section Design */
+.donation-title, .donation-paragraph{
+    text-align: center;
+}
+
+.donation-paragraph{
+    margin-top: 24px;
+    margin-bottom: 32px;
+    padding-left: 88px;
+    padding-right: 88px;
+}
+
+.donation-cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.donate-card1, .donate-card3, .donate-card4{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: white;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+.donate-card2{
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    background-color: #C6E4D6;
+    padding: 40px 40px;
+    border-radius: 16px;
+}
+
+.donate-card1, .donate-card2, .donate-card3, .donate-card4, h1{
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+    color: rgba(14, 14, 14, 0.8);
+}
+
+.donate-card1:hover, .donate-card3:hover, .donate-card4:hover{
+    background-color: #6ccfa1;
+    cursor: pointer;
+}
+
+.donate-card2:hover{
+    background-color: #6ccfa1;
+    cursor: pointer;
+}
+
+.donation-input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20;
+    padding-left: 124px;
+    padding-right: 124px;
+}
+
+.amount-input{
+    width: 100%;
+    font-family: "Fira Sans", serif;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: rgba(14, 14, 14, 0.3);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+/* Subscribe Newsletter Section Design */
+.newsletter-section{
+    background-color: #C6E4D6;
+    padding: 80px 265px;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+
+.subscribe-newsletter{
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.input-newsletter{
+    /* width: 100%; */
+    /* margin: 0; */
+    width: 750px;
+    font-size: 16px;
+    padding: 18px 40px;
+    text-align: start;
+    color: rgba(14, 14, 14, 0.3);
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 8px 0px 0px 8px;
+}
+
+.newsletter-paragraph{
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.subscribe-btn{
+    margin: 0;
+    padding: 17px 34px;
+    border-radius: 0px 8px 8px 0px;
+    color: white;
+    background-color: #006A50;
+    border: none;
+    font-family: "Fira Sans", serif;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.subscribe-btn:hover{
+    background-color: #0a4134;
+    cursor: pointer;
+}
+
+.newsletter-message{
+    margin: 0px;
+}
+
+
+/* Quote Section Design */
+.quote-section{
+    padding: 24px 48px;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background-color: white;
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+
+}
+
+.quote-section h3{
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
+
+.quote-section-paragraph{
+    margin: 0px;
+}
