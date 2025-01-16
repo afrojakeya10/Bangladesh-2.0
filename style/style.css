@@ -101,7 +101,7 @@
 }
 
 
-/* The Vision of Future Design */
+/* The Vision */
 .vision-section{
     margin-top: 80px;
 }
@@ -120,34 +120,34 @@
     margin-bottom: 32px;
 }
 
-.vision-card1{
-    /* border: 1px solid red; */
+.card1{
+    
     background-color: rgba(84, 144, 245, 0.2);
     border-radius: 16px;
     padding: 32px;
 }
-.vision-card2{
-    /* border: 1px solid red; */
+.card2{
+    
     background-color: #C6E4D6;
     border-radius: 16px;
     padding: 32px;
 }
-.vision-card3{
+.card3{
     /* border: 1px solid red; */
     background-color: #F7EBCF;
     border-radius: 16px;
     padding: 32px;
 }
 
-.vision-card1:hover{
+.card1:hover{
     background-color: rgba(84, 143, 245, 0.500);
 }
 
-.vision-card2:hover{
+.card2:hover{
     background-color: #76cfa6;
 }
 
-.vision-card3:hover{
+.card3:hover{
     background-color: #fce0a0;
 }
 
@@ -161,7 +161,7 @@
     margin-bottom: 24px;
     }
 
-.vision-card1-btn{
+.card1-btn{
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #5490F5;
@@ -171,7 +171,7 @@
     padding: 11px 20px;
     border: none;
 }
-.vision-card2-btn{
+.card2-btn{
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #09A15C;
@@ -181,7 +181,7 @@
     padding: 11px 20px;
     border: none;
 }
-.vision-card3-btn{
+.card3-btn{
     border-radius: 8px;
     color: #FFFFFF;
     background-color: #FFC239;
@@ -192,15 +192,15 @@
     border: none;
 }
 
-.vision-card1-btn:hover{
+.card1-btn:hover{
     background-color: #2974f5;
     cursor: pointer;
 }
-.vision-card2-btn:hover{
+.card2-btn:hover{
     background-color: #066b3e;
     cursor: pointer;
 }
-.vision-card3-btn:hover{
+.card3-btn:hover{
     background-color: #aa7701;
     cursor: pointer;
 }
